@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#home-section {
+  @apply bg-[#222629] w-full h-[100vh];
+}
+
+#home-grid {
+  @apply grid grid-cols-2;
+}
