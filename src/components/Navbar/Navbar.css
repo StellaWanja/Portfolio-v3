@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-nav{
-    @apply flex flex-row w-full justify-between
+nav {
+  @apply flex flex-row w-full justify-between align-middle;
+}
+.logo {
+  @apply ml-8;
+}
+.contact-btn {
+  @apply self-center border-2 border-[#f7f6fb] px-6 py-2 rounded mr-8 text-[#f7f6fb];
 }
