@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-#home-section {
+.home-section {
   @apply bg-[#151616] w-full min-h-screen;
 }
 
-#home-grid {
+.home-grid {
   @apply flex h-[80vh] items-center justify-center;
 }
 

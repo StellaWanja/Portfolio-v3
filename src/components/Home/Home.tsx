@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <section id="home-section">
+    <section className="home-section">
       <Navbar />
-      <div id="home-grid">
+      <div className="home-grid">
         <div className="hero-text">
           <h2>Hi there, I'm StylaDes | Stella Wanja.</h2>
           <h2>

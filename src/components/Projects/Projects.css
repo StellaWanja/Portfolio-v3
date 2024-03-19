@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.projects-section {
+    @apply bg-[#aa5dc2] w-full min-h-screen;
+  }

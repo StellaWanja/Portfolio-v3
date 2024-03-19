@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact-section {
+    @apply bg-[#c25d6a] w-full min-h-screen;
+  }

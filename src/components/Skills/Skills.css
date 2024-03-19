@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.skills-section {
+    @apply bg-[#5dc293] w-full min-h-screen;
+  }
