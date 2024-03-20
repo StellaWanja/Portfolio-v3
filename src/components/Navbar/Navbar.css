@@ -9,5 +9,16 @@ nav {
   @apply ml-8;
 }
 .contact-btn {
-  @apply self-center border-2 border-[#f7f6fb] px-6 py-2 rounded mr-8 text-[#f7f6fb];
+  @apply self-center 
+  border-2 border-[#f7f6fb] 
+  px-6 py-2 
+  rounded 
+  mr-8 
+  text-[#f7f6fb] uppercase font-semibold
+  bg-transparent 
+  cursor-pointer  
+  transition duration-300 ease-linear;
+}
+.contact-btn:hover{
+  @apply bg-[#f7f6fb] text-[#151616]
 }

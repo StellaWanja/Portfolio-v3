@@ -7,25 +7,28 @@
 }
 
 .home-grid {
-  @apply flex h-[80vh] items-center justify-center;
+  @apply flex h-[80vh] relative;
 }
 
 .hero-text {
-  @apply mx-2 text-center;
+  @apply mx-4 z-50 absolute top-24 sm:top-1/3 sm:left-20;
 }
 
-.hero-text p {
-  @apply text-[#f7f6fb];
+.hero-text h1 {
+  @apply text-6xl font-black text-[#f7f6fb];
 }
 
 .hero-text h2 {
-  @apply text-3xl font-bold text-[#f7f6fb];
+  @apply text-4xl font-bold text-[#f7f6fb];
 }
 
-.hero-text h3 {
-  @apply text-[#86c232] text-4xl font-bold;
+.hero-text p{
+  @apply text-[#f7f6fb] text-xl;
 }
 
+.arrow-down {
+  @apply absolute right-1/2 -bottom-40
+}
 /* :root {
   --header-height: 3rem;
   --nav-width: 68px;
