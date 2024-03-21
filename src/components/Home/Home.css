@@ -11,7 +11,7 @@
 }
 
 .hero-text {
-  @apply mx-4 z-50 absolute top-24 sm:top-1/3 sm:left-20;
+  @apply mx-4 z-50 absolute top-24 md:top-1/4 lg:top-1/3 lg:left-20;
 }
 
 .hero-text h1 {
@@ -22,16 +22,17 @@
   @apply text-4xl font-bold text-[#f7f6fb];
 }
 
-.hero-text p{
+.hero-text p {
   @apply text-[#f7f6fb] text-xl;
 }
 
 .arrow-down {
-  @apply absolute right-1/2 -bottom-40
+  @apply absolute left-1/3 sm:right-1/2 -bottom-40 cursor-pointer;
 }
+
 /* :root {
   --header-height: 3rem;
-  --nav-width: 68px;
+  --nav-width: 68px;2
   --white-color: #f7f6fb;
   --green-color: #86c232;
   --dark-green-color: #61892f;
