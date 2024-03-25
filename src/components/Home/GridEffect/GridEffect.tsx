@@ -3,7 +3,7 @@ import anime from "animejs";
 
 const GridEffect = () => {
   return (
-    <div className="-z-5 absolute right-0 top-10 sm:right-12">
+    <div className="-z-5 absolute right-0 top-10 hidden sm:block">
       <DotGrid />
     </div>
   );
@@ -13,7 +13,7 @@ const GRID_WIDTH = 35;
 const GRID_HEIGHT = 25;
 
 const DotGrid = () => {
-  const handleDotClick = (e: React.MouseEvent<HTMLElement> ) => {
+  const handleDotClick = (e: React.MouseEvent<HTMLElement>) => {
     anime({
       targets: ".dot-point",
       scale: [

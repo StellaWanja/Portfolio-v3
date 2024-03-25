@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 .projects-section {
-    @apply bg-[#aa5dc2] w-full min-h-screen;
-  }
+  @apply bg-[#151616] w-full min-h-screen;
+}
+
+.projects-section h2 {
+  @apply text-[#f7f6fb] text-4xl font-bold text-center pb-4;
+}
+
+.projects-section .text {
+  @apply text-[#f7f6fb] text-xl text-center pb-10;
+}
+
+.projects-container {
+  @apply grid grid-cols-3 gap-8 justify-items-center;
+}

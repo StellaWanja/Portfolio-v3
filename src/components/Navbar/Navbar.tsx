@@ -5,7 +5,9 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav>
-      <img src={Logo} alt="Logo image" width={"70px"} className="logo" />
+      <Link to="/" className="logo">
+        <img src={Logo} alt="Logo image" width={"70px"}  />
+      </Link>
       <Link
         className="contact-btn"
         activeClass="active"

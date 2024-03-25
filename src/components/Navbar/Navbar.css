@@ -8,6 +8,9 @@ nav {
 .logo {
   @apply ml-8;
 }
+.logo:hover {
+  @apply cursor-pointer;
+}
 .contact-btn {
   @apply self-center 
   border-2 border-[#f7f6fb] 
@@ -19,6 +22,6 @@ nav {
   cursor-pointer  
   transition duration-300 ease-linear;
 }
-.contact-btn:hover{
-  @apply bg-[#f7f6fb] text-[#151616]
+.contact-btn:hover {
+  @apply bg-[#f7f6fb] text-[#151616];
 }

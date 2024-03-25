@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply flex flex-col items-center;
+}
+
+.card-img {
+  @apply w-full h-[300px] rounded;
+}
+
+.card-img img {
+  @apply h-full m-auto;
+}
+
+.card-text h3 {
+  @apply text-[#f7f6fb] text-xl font-bold py-4;
+}
+
+.card-text p {
+  @apply text-[#f7f6fb] text-base pb-2;
+}
+
+.project-link {
+  @apply flex items-center uppercase text-sm text-[#f7f6fb] font-semibold transition duration-300 ease-linear;
+}
+
+.project-link:hover {
+  @apply text-[#86c232];
+}
+
+.project-link .project-arrow {
+  @apply transition duration-300 ease-linear;
+}
+
+.project-link:hover .project-arrow {
+  @apply translate-x-2;
+}
