@@ -1,6 +1,8 @@
 import Card from "./Card/Card";
 // image imports
 import EnvisioIMG from "../../assets/envisio.png";
+import BoltIMG from "../../assets/bolt.png";
+import PlantlyfIMG from "../../assets/plantlyf.jpg";
 import "./Projects.css";
 
 const projects: Project[] = [
@@ -8,28 +10,28 @@ const projects: Project[] = [
     id: 1,
     name: "Envisio",
     description:
-      "A web application that predicts whether breast cancer is benign or malignant.",
+      "A full-stack web application that predicts whether breast cancer is benign or malignant, built with React, Node.js, Express.js, MongoDB",
     websiteLink: "https://envisio-frontend.vercel.app",
     githubLink: "https://github.com/StellaWanja/MERN-Envisio",
     img: `${EnvisioIMG}`,
   },
   {
     id: 2,
-    name: "Envisio",
+    name: "Bolt",
     description:
-      "A web application that predicts whether breast cancer is benign or malignant.",
-    websiteLink: "https://envisio-frontend.vercel.app",
-    githubLink: "https://github.com/StellaWanja/MERN-Envisio",
-    img: `${EnvisioIMG}`,
+      "Developed a shoe ecommerce website using HTML,CSS and JavaScript.",
+    websiteLink: "https://stellawanja.github.io/Bolt/",
+    githubLink: "https://github.com/StellaWanja/Bolt",
+    img: `${BoltIMG}`,
   },
   {
     id: 3,
-    name: "Envisio",
+    name: "PlantLyf",
     description:
-      "A web application that predicts whether breast cancer is benign or malignant.",
-    websiteLink: "https://envisio-frontend.vercel.app",
-    githubLink: "https://github.com/StellaWanja/MERN-Envisio",
-    img: `${EnvisioIMG}`,
+      "A responsive landing page built using HTML and CSS.",
+    websiteLink: "https://stellawanja.github.io/PlantLyf/",
+    githubLink: "https://github.com/StellaWanja/PlantLyf/",
+    img: `${PlantlyfIMG}`,
   }
 ];
 

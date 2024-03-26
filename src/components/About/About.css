@@ -5,13 +5,13 @@
 .about-section {
   @apply bg-[#151616] 
   w-full 
-  min-h-[80vh] sm:min-h-[50vh] 
+  min-h-screen sm:min-h-[50vh] 
   pb-10 px-6 sm:px-4 
   sm:grid sm:grid-cols-2 justify-items-center;
 }
 
 .about-section h2 {
-  @apply text-[#f7f6fb] text-4xl text-center font-bold pb-4;
+  @apply text-[#f7f6fb] text-4xl text-center font-bold pt-12 sm:pt-0 pb-4;
 }
 
 .about-section p {
