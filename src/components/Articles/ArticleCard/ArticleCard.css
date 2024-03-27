@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.article-card {
+  @apply relative h-[300px] w-[250px] sm:h-[450px] sm:w-[450px] overflow-hidden bg-[#151616] border-4 rounded-lg;
+}
+
+.article-card-div {
+  @apply absolute inset-0 z-10 grid place-content-center;
+}
+
+.article-card-text {
+  @apply p-8 text-2xl font-black uppercase text-[#f7f6fb] text-center;
+}
+
+.article-card-overlay {
+  @apply hidden sm:block absolute bg-[#f7f6fb] bottom-0 left-0 right-0 z-30 w-full rounded-tl-3xl translate-y-full duration-200 ease-in-out;
+}
+
+.article-card:hover .article-card-overlay {
+  @apply translate-y-0;
+}
+
+.article-card-arc {
+  @apply w-[80px] h-[80px] absolute bottom-full right-0 z-30;
+}
+
+.article-card-overlay p{
+    @apply p-[2em] m-0 text-justify text-lg
+}

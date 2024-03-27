@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .article-section {
-  @apply relative h-[200vh] bg-[#151616];
+  @apply relative h-[200vh] bg-[#151616] ;
 }
 
 .article-section h2 {
@@ -14,18 +14,10 @@
   @apply text-[#f7f6fb] text-xl text-center;
 }
 
-.article-showcase{
-    @apply sticky top-0 flex h-[60vh] items-center overflow-hidden
+.article-showcase {
+  @apply sticky top-0 mt-8 flex h-[30%] items-center overflow-hidden;
 }
 
-.card:hover .card-overlay {
-  @apply translate-y-0;
-}
 
-.card-arc {
-  @apply w-[80px] h-[80px] absolute bottom-full right-0 z-30;
-}
 
-.card-arc path {
-  @apply fill-[#f7f6fb];
-}
+
