@@ -14,6 +14,8 @@ const GRID_HEIGHT = 25;
 
 const DotGrid = () => {
   const handleDotClick = (e: React.MouseEvent<HTMLElement>) => {
+    const target = e.target as HTMLElement;
+
     anime({
       targets: ".dot-point",
       scale: [
@@ -30,7 +32,7 @@ const DotGrid = () => {
       ],
       delay: anime.stagger(100, {
         grid: [GRID_WIDTH, GRID_HEIGHT],
-        from: e.target.dataset.index,
+        from: parseInt(target.dataset.index || '0', 10)
       }),
     });
   };

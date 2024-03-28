@@ -1,5 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link  } from "react-scroll";
 import Lottie from "lottie-react";
 //file imports
 import animationData from "../../assets/animations/arrow-down.json";
