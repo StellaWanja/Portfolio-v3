@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .home-section {
-  @apply bg-[#151616] w-full min-h-screen ;
+  @apply bg-[#151616] w-full min-h-screen;
 }
 
 .home-grid {

@@ -17,3 +17,11 @@
 .social-media{
   @apply flex justify-center text-[#f7f6fb] text-2xl gap-4
 }
+
+.social-media .icon{
+  @apply  transition duration-200 ease-in-out
+}
+
+.social-media .icon:hover{
+  @apply text-[#86c232]
+}
