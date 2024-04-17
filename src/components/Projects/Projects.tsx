@@ -3,11 +3,21 @@ import Card from "./Card/Card";
 import EnvisioIMG from "../../assets/envisio.png";
 import BoltIMG from "../../assets/bolt.png";
 import PlantlyfIMG from "../../assets/plantlyf.jpg";
+import CurioScribeIMG from "../../assets/curioscribe.png";
 import "./Projects.css";
 
 const projects: Project[] = [
   {
     id: 1,
+    name: "CurioScribe",
+    description:
+      "A dynamic content generation tool leveraging the OpenAI API to craft engaging articles and tales, currently being built using React, Node.js, Express.js, MySQL, TypeScript",
+    websiteLink: "",
+    githubLink: "https://github.com/StellaWanja/CurioScribe",
+    img: `${CurioScribeIMG}`,
+  },
+  {
+    id: 2,
     name: "Envisio",
     description:
       "A full-stack web application that predicts whether breast cancer is benign or malignant, built with React, Node.js, Express.js, MongoDB",
@@ -16,7 +26,7 @@ const projects: Project[] = [
     img: `${EnvisioIMG}`,
   },
   {
-    id: 2,
+    id: 3,
     name: "Bolt",
     description:
       "Developed a shoe ecommerce website using HTML,CSS and JavaScript.",
@@ -25,7 +35,7 @@ const projects: Project[] = [
     img: `${BoltIMG}`,
   },
   {
-    id: 3,
+    id: 4,
     name: "PlantLyf",
     description:
       "A responsive landing page built using HTML and CSS.",

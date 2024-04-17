@@ -16,11 +16,22 @@ const Card: React.FC<{ projects: Project[] }> = ({ projects }) => {
               <h3>{project.name}</h3>
               <p>{project.description}</p>
               <div className="project-links">
-                <Link to={project.websiteLink} target="_blank" className="project-link">
-                  Live Project{" "}
-                  <MdOutlineKeyboardArrowRight className="project-arrow" />
-                </Link>
-                <Link to={project.githubLink} target="_blank" className="project-link">
+                {project.websiteLink !== "" && (
+                  <Link
+                    to={project.websiteLink}
+                    target="_blank"
+                    className="project-link"
+                  >
+                    Live Project{" "}
+                    <MdOutlineKeyboardArrowRight className="project-arrow" />
+                  </Link>
+                )}
+
+                <Link
+                  to={project.githubLink}
+                  target="_blank"
+                  className="project-link"
+                >
                   Learn More{" "}
                   <MdOutlineKeyboardArrowRight className="project-arrow" />
                 </Link>
